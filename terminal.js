@@ -130,7 +130,7 @@ function process(input){
 								options.option = true;
 							}
 						}else{	// command doesn't accept/recognize the function
-							write(command + ": unrecognized option\'" + option[0] + "\'");
+							write(command + ": unrecognized option \'" + option[0] + "\'");
 							return;
 						}
 					}
